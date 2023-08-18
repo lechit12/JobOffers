@@ -26,6 +26,13 @@ Step 5. User made POST /offers with header authorization:Bearer AAA.BBB.CCC and 
 Step 6. User made GET /offers with header authorization:Bearer AAA.BBB.CCC 
 and system returned OK(200) with 3 offers with ids 1000,2000,3000
 
+## Modules
+1.Offers CRUD and periodically fetching  offers from external service (Offer)
+
+2.Finding and registering users (LoginAndRegister)
+
+3.Auth and genereting JWT (JwtAuthenticator)
+
 
 ## Authors and acknowledgment
 Show your appreciation to those who have contributed to the project.
