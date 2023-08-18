@@ -8,7 +8,7 @@ To make it easy for you to get started with GitLab, here's a list of recommended
 
 Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
 
-## Happy path scerario
+## Happy path scenario
 Step 1. User is registered , using POST /register with 
 username=someUser and password=somePassword and system returned OK(200) and jwttoken=AAA.BBB.CCC
 
