@@ -5,6 +5,7 @@ import lombok.AllArgsConstructor;
 import org.joboffers.domain.loginandregister.dto.RegisterUserDto;
 import org.joboffers.domain.loginandregister.dto.RegistrationResultDto;
 import org.joboffers.domain.loginandregister.dto.UserDto;
+
 @AllArgsConstructor
 public class LoginAndRegisterFacade {
 

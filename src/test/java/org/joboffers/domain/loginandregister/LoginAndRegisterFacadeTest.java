@@ -1,4 +1,4 @@
-package org.joboffers.domain.loginandregister.dto;
+package org.joboffers.domain.loginandregister;
 
 import static org.junit.jupiter.api.Assertions.*;
 

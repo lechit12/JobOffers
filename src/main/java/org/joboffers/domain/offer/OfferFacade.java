@@ -1,7 +1,6 @@
 package org.joboffers.domain.offer;
 
 import lombok.AllArgsConstructor;
-import org.joboffers.domain.offer.dto.JobOfferResponseDto;
 import org.joboffers.domain.offer.dto.OfferRequestDto;
 import org.joboffers.domain.offer.dto.OfferResponseDto;
 
@@ -11,7 +10,9 @@ import java.util.List;
 public class OfferFacade {
 
     private final OfferRepository repository;
-    private final OffersFetcher offersFetcher;
+    private final OfferService offerService;
+
+
 
 
     public List<OfferResponseDto> findAllOffers()
@@ -36,6 +37,10 @@ public class OfferFacade {
     }
     public List<OfferResponseDto> fetchAllOffersAndSaveAllIfNotExists()
     {
+        return offerService.fetchAllOffersAndSaveAllIfNotExists()
+                .stream()
+                .map(OfferMapper::mapFromOfferToOfferDto)
+                .toList();
 
     }
 

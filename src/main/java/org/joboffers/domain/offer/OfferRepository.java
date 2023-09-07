@@ -12,6 +12,8 @@ public interface OfferRepository {
     Offer save(Offer savedOffer);
 
     List<Offer> findAllOffers();
+    List<Offer> saveAll(List<Offer> offers);
 
-
+    boolean existsByOfferUrl(String offerUrl);
+    Optional<Offer> findByOfferUrl(String offerUrl);
 }
