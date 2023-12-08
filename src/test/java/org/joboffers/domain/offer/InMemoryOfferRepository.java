@@ -31,7 +31,8 @@ public class InMemoryOfferRepository implements OfferRepository {
                 savedOffer.salary(),
                 savedOffer.offerUrl()
         );
-        database.put(id.toString(),offer);
+        database.put(id.toString(), offer);
+
         return offer;
     }
 

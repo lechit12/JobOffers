@@ -7,7 +7,7 @@ import org.joboffers.domain.offer.dto.OfferResponseDto;
 import java.util.List;
 
 @AllArgsConstructor
-public class OfferFacade {
+public class   OfferFacade {
 
     private final OfferRepository repository;
     private final OfferService offerService;

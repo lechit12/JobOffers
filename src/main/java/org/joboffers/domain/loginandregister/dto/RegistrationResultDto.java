@@ -1,4 +1,4 @@
 package org.joboffers.domain.loginandregister.dto;
 
-public record RegistrationResultDto(String id,String username, String message) {
+public record RegistrationResultDto(String id,boolean created, String username) {
 }

@@ -122,4 +122,6 @@ public class OfferFacadeTest {
                 .isInstanceOf(OfferDuplicateException.class)
                 .hasMessage("Offer with offerUrl [hello.pl] already exists");
     }
+
+
 }
